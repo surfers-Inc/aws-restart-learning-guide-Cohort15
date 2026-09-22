@@ -47,6 +47,6 @@ Our goal is not to copy classroom slides, but to condense concepts, track hands-
 
 > *"You can't stop the waves, but you can learn to surf."*
 > 
-> Cloud computing moves fast, and learning it can feel like facing a massive wave. Stay consistent, help each other out, keep building, and we will all catch the cloud wave and crush our exams together and build a strong foundation skills for our future cloud roles! Let's ride! 🚀☁️
+> Cloud computing moves fast, and learning it can feel like facing a massive wave. Stay consistent, help each other out, keep building, and we will all catch the cloud wave and crush our exams together and build a strong foundation skills for our future cloud roles!🚀☁️
 
 </div>
