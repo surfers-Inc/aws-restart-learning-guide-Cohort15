@@ -41,7 +41,7 @@ Our goal is not to copy classroom slides, but to condense concepts, track hands-
 
 ---
 
-<img src="https://media.giphy.com/media/l41K3l2p2XstAogec/giphy.gif" alt="Surfer riding a huge cloud wave" width="500" />
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFrYmQ0ZXgxaDUybjFjc2lmM3FseGZ2Ym5kdTdjNG42bDAyeGd2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2JXpNjNChv1ss/giphy.gif" alt="Surfer riding a huge cloud wave" width="500" />
 
 ### 💡 Word of Encouragement
 
