@@ -1,0 +1,96 @@
+# ==========================================
+# AWS Credentials & Secrets Guardrails
+# ==========================================
+*.pem
+*.cer
+*.crt
+*.pub
+*.key
+*.id_rsa
+*.id_ed25519
+*.pfx
+*.p12
+
+# AWS CLI & Local Configs
+.aws/
+aws_credentials
+credentials
+credentials.json
+*_access_keys.csv
+rootkey.csv
+
+# Environment & Secret Files
+.env
+.env.*
+!.env.example
+*.tfvars
+*.tfstate
+*.tfstate.backup
+
+# ==========================================
+# Operating System Junk
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ==========================================
+# IDE & Code Editor Files
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Vim
+*.swp
+*.swo
+
+# ==========================================
+# Python & Virtual Environments (for re/Start scripts)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
