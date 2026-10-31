@@ -1335,7 +1335,6 @@ What other services should be used for transformed records after they are proces
 
 > **💡 Why:** IAM best practices include monitoring account activity and rotating credentials regularly.
 >
-> **🔑 Keywords:** `IAM best practices`
 >
 > **📖 Official docs:** [IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
 
@@ -1481,7 +1480,6 @@ What other services should be used for transformed records after they are proces
 
 > **💡 Why:** Amazon VPC lets you create an isolated virtual network in AWS.
 >
-> **🔑 Keywords:** `create a virtual network`
 >
 > **📖 Official docs:** [What is Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
 
@@ -1491,9 +1489,8 @@ What other services should be used for transformed records after they are proces
 - [ ] /24
 - [x] /28 ✅
 
-> **💡 Why:** The smallest VPC subnet is /28 (16 IP addresses).
+> **💡 Why:** The smallest VPC subnet in AWS is /28 (16 IP addresses).
 >
-> **🔑 Keywords:** `minimum size subnet`
 >
 > **📖 Official docs:** [Subnet CIDR blocks (sizes, reserved IPs)](https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html)
 
@@ -1505,7 +1502,6 @@ What other services should be used for transformed records after they are proces
 
 > **💡 Why:** The largest VPC IPv4 range is /16.
 >
-> **🔑 Keywords:** `maximum IPv4 address range`
 >
 > **📖 Official docs:** [VPC CIDR blocks](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html)
 
@@ -1525,9 +1521,8 @@ What other services should be used for transformed records after they are proces
 - [ ] True
 - [x] False ✅
 
-> **💡 Why:** False: a private subnet has no direct route to an internet gateway.
+> **💡 Why:** False: a private subnet has no direct route to the internet.
 >
-> **🔑 Keywords:** `Private subnets have direct access`
 >
 > **📖 Official docs:** [Subnets for your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html)
 
@@ -1551,7 +1546,6 @@ What other services should be used for transformed records after they are proces
 
 > **💡 Why:** A network ACL is an optional layer applied at the subnet level. Security groups apply at the instance level.
 >
-> **🔑 Keywords:** `optional security control`, `subnet layer`
 >
 > **📖 Official docs:** [Network ACLs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)
 
@@ -1575,7 +1569,6 @@ What other services should be used for transformed records after they are proces
 
 > **💡 Why:** A VPC can have only one internet gateway attached at a time.
 >
-> **🔑 Keywords:** `how many internet gateways`
 >
 > **📖 Official docs:** [Internet gateways](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html)
 
@@ -1588,7 +1581,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** You need a public and a private subnet in each of two AZs, which makes four subnets, to keep both tiers highly available.
 >
-> **🔑 Keywords:** `public subnet`, `private subnet`, `highly available`, `minimum of two`
 >
 > **📖 Official docs:** [Subnets for your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html)
 
@@ -1600,7 +1592,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Subnets divide a VPC into smaller segments.
 >
-> **🔑 Keywords:** `used to divide`
 >
 > **📖 Official docs:** [Subnets for your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html)
 
@@ -1612,7 +1603,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** A subnet is defined by its CIDR block.
 >
-> **🔑 Keywords:** `what defines a subnet`
 >
 > **📖 Official docs:** [Subnet CIDR blocks (sizes, reserved IPs)](https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html)
 
@@ -1624,7 +1614,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** AWS reserves five IP addresses in each subnet: the first four and the last one.
 >
-> **🔑 Keywords:** `reserved by AWS`
 >
 > **📖 Official docs:** [Subnet CIDR blocks (sizes, reserved IPs)](https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html)
 
@@ -1637,7 +1626,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** An elastic network interface is a virtual network card that you attach to an instance in a VPC.
 >
-> **🔑 Keywords:** `elastic network interface`
 >
 > **📖 Official docs:** [Elastic network interfaces](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html)
 
@@ -1647,7 +1635,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** True: you can create several VPCs in a Region (default quota applies), and you control each one's networking.
 >
-> **🔑 Keywords:** `multiple VPCs`, `complete control`
 >
 > **📖 Official docs:** [Amazon VPC quotas](https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html)
 
@@ -1673,7 +1660,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** S3 stores objects redundantly across multiple AZs within the same Region.
 >
-> **🔑 Keywords:** `replicates all objects`
 >
 > **📖 Official docs:** [Data protection in Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/DataDurability.html)
 
@@ -1699,7 +1685,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** S3 bucket names are globally unique across all AWS accounts.
 >
-> **🔑 Keywords:** `name ... must be unique`
 >
 > **📖 Official docs:** [S3 bucket naming rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
 
@@ -1733,7 +1718,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** False: new S3 buckets and their objects are private by default.
 >
-> **🔑 Keywords:** `by default`, `viewable by the public`
 >
 > **📖 Official docs:** [S3 Block Public Access](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html)
 
@@ -1745,7 +1729,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** A Glacier vault is a container for storing archives.
 >
-> **🔑 Keywords:** `vault`, `Glacier`
 >
 > **📖 Official docs:** [Working with S3 Glacier vaults](https://docs.aws.amazon.com/amazonglacier/latest/dev/working-with-vaults.html)
 
@@ -1755,7 +1738,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** False: ACLs are not how you make a whole bucket public. Static website hosting uses a bucket policy and public access settings.
 >
-> **🔑 Keywords:** `entire buckets public`, `hosting a website`
 >
 > **📖 Official docs:** [Permissions for S3 static website (bucket policy)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteAccessPermissionsReqd.html)
 
@@ -1767,7 +1749,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** EBS volumes can be encrypted transparently and are replicated within their AZ. Data on an EBS volume persists after stopping.
 >
-> **🔑 Keywords:** `features of Amazon EBS`
 >
 > **📖 Official docs:** [What is Amazon EBS?](https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html) · [Amazon EBS encryption](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-encryption.html)
 
@@ -1819,7 +1800,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** An attribute is a fundamental data element in DynamoDB.
 >
-> **🔑 Keywords:** `attribute`, `DynamoDB`
 >
 > **📖 Official docs:** [DynamoDB core components](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html)
 
@@ -1843,7 +1823,7 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Aurora is up to 5x faster than MySQL and 3x faster than PostgreSQL.
 >
-> **🔑 Keywords:** `five times faster than MySQL`, `three times faster than PostgreSQL`
+> **🔑 Keywords:** `MySQL`, `PostgreSQL` - looking for structured relational databases
 >
 > **📖 Official docs:** [What is Amazon Aurora?](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)
 
@@ -1855,7 +1835,7 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** DynamoDB gives very fast performance, fast scalability and a flexible schema.
 >
-> **🔑 Keywords:** `extremely fast performance`, `flexibility in the database schema`
+> **🔑 Keywords:**, `flexibility in the database schema` - noSQL
 >
 > **📖 Official docs:** [What is Amazon DynamoDB?](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
 
@@ -1883,7 +1863,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** The four support plans in this course are Basic, Developer, Business and Enterprise.
 >
-> **🔑 Keywords:** `four support plans`
 >
 > **📖 Official docs:** [AWS Support plans](https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html) · [Compare AWS Support plans](https://aws.amazon.com/premiumsupport/plans/)
 >
@@ -1898,7 +1877,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Developer Support allows one primary contact and business-hours email access to Cloud Support Associates.
 >
-> **🔑 Keywords:** `Developer Support Plan`, `characteristics`
 >
 > **📖 Official docs:** [AWS Support plans](https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html) · [Compare AWS Support plans](https://aws.amazon.com/premiumsupport/plans/)
 
@@ -1910,7 +1888,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Well-Architected reviews delivered by Solutions Architects are an Enterprise feature, not Business.
 >
-> **🔑 Keywords:** `not available in the Business Support Plan`
 >
 > **📖 Official docs:** [AWS Support plans](https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html) · [Compare AWS Support plans](https://aws.amazon.com/premiumsupport/plans/)
 
@@ -1921,8 +1898,7 @@ How many subnets should you have to maintain high availability? Select the best 
 - [x] Enterprise Support ✅
 
 > **💡 Why:** Business and Enterprise offer 24/7 phone and chat access.
->
-> **🔑 Keywords:** `24/7 support via phone or chat`
+>`
 >
 > **📖 Official docs:** [AWS Support plans](https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html) · [Compare AWS Support plans](https://aws.amazon.com/premiumsupport/plans/)
 
@@ -1949,7 +1925,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** The five severity levels are Low, Normal, High, Urgent and Critical.
 >
-> **🔑 Keywords:** `five severity levels`
 >
 > **📖 Official docs:** [Choosing a case severity](https://docs.aws.amazon.com/awssupport/latest/user/case-management.html)
 
@@ -1961,7 +1936,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** For Enterprise Support, an urgent case has a response time of 1 hour or less.
 >
-> **🔑 Keywords:** `response time of urgent issues`, `Enterprise`
 >
 > **📖 Official docs:** [Compare AWS Support plans](https://aws.amazon.com/premiumsupport/plans/)
 
@@ -1973,7 +1947,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Basic Support has no technical support cases. It covers account and billing questions only.
 >
-> **🔑 Keywords:** `Basic Support Plan`, `support cases per month`
 >
 > **📖 Official docs:** [AWS Support plans](https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html)
 
@@ -1986,7 +1959,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Trusted Advisor reports on fault tolerance, performance and idle resources that cost money.
 >
-> **🔑 Keywords:** `what will Trusted Advisor tell you`
 >
 > **📖 Official docs:** [AWS Trusted Advisor](https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html)
 
@@ -2014,7 +1986,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** The four areas of performance efficiency are Selection, Review, Monitoring and Tradeoffs. Traceability belongs to the Security pillar.
 >
-> **🔑 Keywords:** `four areas`, `performance efficiency pillar`
 >
 > **📖 Official docs:** [Performance efficiency pillar](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html)
 
@@ -2027,7 +1998,7 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Auto Scaling adds or removes instances, enforces minimums and launches from an AMI. Sending traffic to healthy instances is Elastic Load Balancing's job.
 >
-> **🔑 Keywords:** `not a characteristic`, `Auto Scaling`
+> **🔑 Keywords:** `not a characteristic EC2 auto scaling`
 >
 > **📖 Official docs:** [What is EC2 Auto Scaling?](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html) · [What is Elastic Load Balancing?](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 
@@ -2040,7 +2011,7 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Use multiple AZs and Auto Scaling to replace failed instances for higher availability.
 >
-> **🔑 Keywords:** `increase the availability`, `web server farm`
+> **🔑 Keywords:** `increase availability`
 >
 > **📖 Official docs:** [Reliability pillar (Well-Architected)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) · [What is EC2 Auto Scaling?](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)
 
@@ -2065,7 +2036,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** AWS Marketplace is the catalog for finding, buying and deploying third-party software.
 >
-> **🔑 Keywords:** `find, buy, and immediately start using software`
 >
 > **📖 Official docs:** [What is AWS Marketplace?](https://docs.aws.amazon.com/marketplace/latest/buyerguide/what-is-marketplace.html)
 
@@ -2077,7 +2047,7 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Physical data centers often rely on perimeter-only security. In AWS you apply security at every layer.
 >
-> **🔑 Keywords:** `physical data center`, `security typically considered`
+> **🔑 Keywords:** `physical data center`
 >
 > **📖 Official docs:** [Security pillar (Well-Architected)](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
 
@@ -2089,7 +2059,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** The metadata URL is http(s)://169.254.169.254/latest/meta-data/.
 >
-> **🔑 Keywords:** `view all categories of instance metadata`
 >
 > **📖 Official docs:** [Instance metadata and user data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
 
@@ -2101,7 +2070,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Fault tolerance means the system stays operational when components fail.
 >
-> **🔑 Keywords:** `remain operational even if some components fail`
 >
 > **📖 Official docs:** [Reliability pillar (Well-Architected)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html)
 
@@ -2113,7 +2081,7 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Highly available systems keep running automatically without human intervention.
 >
-> **🔑 Keywords:** `always available`, `without human intervention`
+> **🔑 Keywords:** `always available`
 >
 > **📖 Official docs:** [Reliability pillar (Well-Architected)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html)
 
@@ -2128,7 +2096,7 @@ How many subnets should you have to maintain high availability? Select the best 
 - [ ] Auto Availability Zones
 - [ ] Agile Load Balancing
 
-> **💡 Why:** Elastic Load Balancing and Auto Scaling help an application scale with demand.
+> **💡 Why:** Elastic Load Balancing and Auto Scaling work hand in hand to help an application scale with demand.
 >
 > **🔑 Keywords:** `scale up or down based on demand`
 >
@@ -2142,7 +2110,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** CloudWatch alarms notify through SNS.
 >
-> **🔑 Keywords:** `send alerts`, `CloudWatch alarms`
 >
 > **📖 Official docs:** [CloudWatch alarms that send email (SNS)](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AlarmThatSendsEmail.html)
 
@@ -2155,7 +2122,7 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Distributing traffic to healthy instances is the load balancer's job, not Auto Scaling's.
 >
-> **🔑 Keywords:** `not a characteristic`, `Auto Scaling`
+> **🔑 Keywords:** `not a characteristic`
 >
 > **📖 Official docs:** [What is EC2 Auto Scaling?](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html) · [What is Elastic Load Balancing?](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 
@@ -2167,7 +2134,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** A load balancer needs a listener, which checks for connection requests on a protocol and port.
 >
-> **🔑 Keywords:** `configured on an Elastic Load Balancing load balancer`, `accept incoming traffic`
 >
 > **📖 Official docs:** [Elastic Load Balancing listeners](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html)
 
@@ -2180,7 +2146,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** An Auto Scaling launch configuration needs at minimum an AMI, a name and an instance type.
 >
-> **🔑 Keywords:** `minimum elements`, `launch configuration`
 >
 > **📖 Official docs:** [Auto Scaling launch configurations](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html)
 >
@@ -2194,7 +2159,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** CloudWatch keeps metric data for 15 months.
 >
-> **🔑 Keywords:** `how long`, `metric data`
 >
 > **📖 Official docs:** [CloudWatch concepts (metric retention)](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html)
 
@@ -2207,7 +2171,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Basic monitoring is free. Detailed monitoring costs extra and gives one-minute data.
 >
-> **🔑 Keywords:** `monitoring plans`
 >
 > **📖 Official docs:** [EC2 basic vs detailed monitoring](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-cloudwatch-new.html)
 
@@ -2220,7 +2183,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** Load balancer health checks use a ping, a connection attempt or a page request.
 >
-> **🔑 Keywords:** `type of health check`
 >
 > **📖 Official docs:** [Classic Load Balancer health checks](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-healthchecks.html)
 
@@ -2234,7 +2196,6 @@ How many subnets should you have to maintain high availability? Select the best 
 
 > **💡 Why:** The load balancer types named here are Network, Classic and Application.
 >
-> **🔑 Keywords:** `three types of load balancers`
 >
 > **📖 Official docs:** [What is Elastic Load Balancing?](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 
