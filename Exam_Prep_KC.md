@@ -1187,7 +1187,6 @@ What other services should be used for transformed records after they are proces
 >
 > **📖 Official docs:** [EC2 instance purchasing options](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html)
 >
-> **⚠️ Note:** AWS has since retired Scheduled Reserved Instances, so this is old exam content.
 
 #### 4. Which Amazon Elastic Compute Cloud (Amazon EC2) feature ensures your instances will not share a physical host with instances from any other AWS customer?
 - [x] Dedicated Instances ✅
